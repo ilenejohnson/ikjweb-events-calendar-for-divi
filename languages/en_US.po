@@ -1,0 +1,208 @@
+# Copyright (C) 2023 Ilene Johnson
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: IKJ Events Calendar For Divi 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ikjweb-events-"
+"calendar-for-divi\n"
+"POT-Creation-Date: 2023-05-12 19:54:43+00:00\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:131
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:132
+msgid "10"
+msgstr ""
+
+#: ikjweb-events-calendar-for-divi.php:35
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ikjweb-events-calendar-for-divi.php:36
+msgid ""
+"In order to use IKJ Events Calendar For Divi, Please first install the "
+"latest version of"
+msgstr ""
+
+#: ikjweb-events-calendar-for-divi.php:40
+msgid "The Events Calendar"
+msgstr ""
+
+#: ikjweb-events-calendar-for-divi.php:52
+msgid ""
+"In order to use IKJ Events Calendar For Divi, Please first install the "
+"latest version of DIVI theme or DIVI plugin"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:28
+msgid "Blog Events for Divi - Tribe Ext"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:74
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:104
+msgid "Body"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:85
+msgid "Events bloc"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:96
+msgid "Read More Block"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:108
+msgid "Events Block"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:118
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:61
+msgid "Heading"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:121
+msgid "Add group heading here."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:126
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:86
+msgid "Number events shown?"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:129
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:89
+msgid "How many events to show in the list."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:136
+msgid "Events Detail Background Color"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:138
+msgid "Background color for events details."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:145
+msgid "Bottom Title Background Color"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:147
+msgid "Background color for title at picture bottom."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:154
+msgid "Bottom Title Color"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:156
+msgid "Color for title at picture bottom."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:162
+msgid "Bottom Divider Color"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:164
+msgid "Color for bottom divider."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:170
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:171
+msgid "READ MORE"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:172
+msgid "Read More Text?"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:175
+msgid "read more text."
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:292
+msgid "Date:"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:295
+msgid "Time: "
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:297
+msgid "All Day Event"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:303
+msgid "Event is free"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:305
+msgid "Event Website"
+msgstr ""
+
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:309
+msgid "Location:"
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:15
+msgid "Upcoming Events for Divi - Tribe Ext"
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:51
+msgid " Styles"
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:64
+msgid "Future events heading here."
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:68
+msgid "Link Color"
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:70
+msgid "Here you can define a custom color for the links of the event."
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:76
+msgid "Date & Time Color"
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:78
+msgid "Here you can define a custom color for the date and time of the event."
+msgstr ""
+
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:164
+msgid "All day event"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "IKJ Events Calendar For Divi"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Divi module that implements The Events Calendar"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ilene Johnson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ikjweb.com"
+msgstr ""
