@@ -4,7 +4,7 @@ Contributors: ilenejohnson
 Tags: Divi, Tribe
 Requires at least: 5.5
 Donate link: https://www.paypal.com/donate/?hosted_button_id=JXZSC8T8BK7ME
-Tested up to: 6.2
+Tested up to: 6.2.1
 Stable tag: 1.0
 Requires PHP: 7.4
 License: GPLv2 or later

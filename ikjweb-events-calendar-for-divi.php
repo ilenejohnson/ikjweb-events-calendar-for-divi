@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: IKJ Events Calendar For Divi
-Plugin URI:
+Plugin URI:   
 Description: A Divi module that implements The Events Calendar
 Version:     1.0.0
 Author:      Ilene Johnson

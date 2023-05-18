@@ -16,7 +16,9 @@ class DIVIEC_UpcomingEvents extends ET_Builder_Module
         $this->main_css_element       = '%%order_class%%.diviec_upcoming_events';
 
         add_action('wp_enqueue_scripts', function () {
-            wp_enqueue_style('ue', 'upcoming-events.css');
+           
+            wp_enqueue_style('ue', plugins_url('upcoming-events.css', __FILE__));
+            
         });
         $this->advanced_fields = array(
             'fonts'          => array(

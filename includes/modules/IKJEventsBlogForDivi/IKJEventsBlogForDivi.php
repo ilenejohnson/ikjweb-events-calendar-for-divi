@@ -29,8 +29,11 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
         $this->main_css_element       = '%%order_class%%.diviec_events_blog';
 
         add_action('wp_enqueue_scripts', function () {
-            $x = plugins_url(). '/ikjweb-events-calendar-divi/includes/modules/IKJEventsBlogForDivi/eventblog.css';
-            wp_enqueue_style('u', $x);
+
+            $eventblog_css_file =  plugins_url('eventblog.css', __FILE__);
+
+
+            wp_enqueue_style('u', $eventblog_css_file);
         });
 
 

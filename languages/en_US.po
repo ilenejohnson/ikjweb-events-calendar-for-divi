@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: IKJ Events Calendar For Divi 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ikjweb-events-"
 "calendar-for-divi\n"
-"POT-Creation-Date: 2023-05-12 19:54:43+00:00\n"
+"POT-Creation-Date: 2023-05-17 16:57:39+00:00\n"
 "PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n1.0.2\n"
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:131
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:132
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:134
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:135
 msgid "10"
 msgstr ""
 
@@ -54,108 +54,108 @@ msgstr ""
 msgid "Blog Events for Divi - Tribe Ext"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:74
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:104
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:77
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:107
 msgid "Body"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:85
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:88
 msgid "Events bloc"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:96
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:99
 msgid "Read More Block"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:108
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:111
 msgid "Events Block"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:118
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:61
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:121
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:63
 msgid "Heading"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:121
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:124
 msgid "Add group heading here."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:126
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:86
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:129
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:88
 msgid "Number events shown?"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:129
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:89
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:132
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:91
 msgid "How many events to show in the list."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:136
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:139
 msgid "Events Detail Background Color"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:138
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:141
 msgid "Background color for events details."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:145
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:148
 msgid "Bottom Title Background Color"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:147
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:150
 msgid "Background color for title at picture bottom."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:154
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:157
 msgid "Bottom Title Color"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:156
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:159
 msgid "Color for title at picture bottom."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:162
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:165
 msgid "Bottom Divider Color"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:164
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:167
 msgid "Color for bottom divider."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:170
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:171
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:173
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:174
 msgid "READ MORE"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:172
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:175
 msgid "Read More Text?"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:175
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:178
 msgid "read more text."
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:292
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:295
 msgid "Date:"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:295
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:298
 msgid "Time: "
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:297
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:300
 msgid "All Day Event"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:303
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:306
 msgid "Event is free"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:305
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:308
 msgid "Event Website"
 msgstr ""
 
-#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:309
+#: includes/modules/IKJEventsBlogForDivi/IKJEventsBlogForDivi.php:312
 msgid "Location:"
 msgstr ""
 
@@ -163,31 +163,31 @@ msgstr ""
 msgid "Upcoming Events for Divi - Tribe Ext"
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:51
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:53
 msgid " Styles"
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:64
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:66
 msgid "Future events heading here."
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:68
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:70
 msgid "Link Color"
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:70
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:72
 msgid "Here you can define a custom color for the links of the event."
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:76
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:78
 msgid "Date & Time Color"
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:78
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:80
 msgid "Here you can define a custom color for the date and time of the event."
 msgstr ""
 
-#: includes/modules/UpcomingEvents/UpcomingEvents.php:164
+#: includes/modules/UpcomingEvents/UpcomingEvents.php:166
 msgid "All day event"
 msgstr ""
 

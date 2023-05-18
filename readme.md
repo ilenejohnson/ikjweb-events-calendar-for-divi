@@ -8,4 +8,4 @@ Install using the WordPress plugin installer. You also must install the Events C
 
 ## Usage
 
-Using the "Install Module" look for "Events for Divi - Tribe Ext" or "Upcoming Events Tribe Ext"
+Using the "Install Module" look for "Blog Events for Divi - Tribe Ext" or "Upcoming Events for Divi - Tribe Ext"
