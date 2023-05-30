@@ -16,9 +16,9 @@ class DIVIEC_UpcomingEvents extends ET_Builder_Module
         $this->main_css_element       = '%%order_class%%.diviec_upcoming_events';
 
         add_action('wp_enqueue_scripts', function () {
-           
+
             wp_enqueue_style('ue', plugins_url('upcoming-events.css', __FILE__));
-            
+
         });
         $this->advanced_fields = array(
             'fonts'          => array(
@@ -86,15 +86,12 @@ class DIVIEC_UpcomingEvents extends ET_Builder_Module
 
             'num_events_shown' => array(
                 'label' => esc_html__('Number events shown?', 'diviec-events-calendar-divi'),
-                'type' => 'text',
+                'type' => 'diviec_input',
                 'option_category' => 'basic_option',
                 'description' => esc_html__('How many events to show in the list.', 'diviec-events-calendar-divi'),
                 'toggle_slug' => 'main_content',
-                'range_settings' => array(
-                  'min' => '1',
-                  'max' => '10',
-                  'step' => '1',
-                )
+                'default'         => __('10', 'diviec-events-calendar-divi'),
+                'default_on_front'=> __('10', 'diviec-events-calendar-divi'),
               ),
 
         );
@@ -161,7 +158,7 @@ class DIVIEC_UpcomingEvents extends ET_Builder_Module
             $events_output .= '<div class="link_wrapper" style="flex-basis: 85%">';
 
             if (tribe_event_is_all_day($post) == false) {
-                $events_output .= '<span class="time_text" >'. $start_time . ' - '. $end_time .'</span>	<br />';
+                $events_output .= '<span class="time_text" >'. $start_time . ' - '. $end_time .'</span>	<br/>';
             } else {
                 $events_output .= '<span class="time_text" >'.   __('All day event', 'diviec-events-calendar-divi') . '</span><br />';
             }

@@ -65,7 +65,7 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
                     ),
 
                 ),
-                'body'   => array(
+              /*  'body'   => array(
                     'css'   => array(
                         'main'  => "{$this->main_css_element} %%order_class%%.et_pb_module .eu_the_content,.et_pb_module .eu_the_content",
                         'line_height' => "{$this->main_css_element} p",
@@ -75,7 +75,7 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
 
                     ),
                     'label' => esc_html__('Body', 'diviec-events-calendar-divi'),
-                ),
+                ),*/
                 'eventsbloc'   => array(
                     'css'   => array(
                         'main'  => "{$this->main_css_element} %%order_class%%.et_pb_module .event_details_block,.et_pb_module .event_details_block",
@@ -100,13 +100,14 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
                 ),
 
                 ),
+                'link_options'   => false,
             );
 
         $this->custom_css_fields = array(
-            'body' => array(
+          /* 'body' => array(
                 'label'    => esc_html__('Body', 'diviec-events-calendar-divi'),
                 'selector' => '.eu_the_content',
-            ),
+            ),*/
             'eventsbloc' => array(
                 'label'    => esc_html__('Events Block', 'diviec-events-calendar-divi'),
                 'selector' => '.event_details_block',
@@ -127,7 +128,7 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
 
             'num_divi_events_shown' => array(
                 'label' => esc_html__('Number events shown?', 'diviec-events-calendar-divi'),
-                'type' => 'text',
+                'type' => 'diviec_input',
                 'option_category' => 'basic_option',
                 'description' => esc_html__('How many events to show in the list.', 'diviec-events-calendar-divi'),
                 'toggle_slug' => 'main_content',
@@ -148,6 +149,14 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
                 'label'             => esc_html__('Bottom Title Background Color', 'diviec-events-calendar-divi'),
                 'type'              => 'color-alpha',
                 'description'       => esc_html__('Background color for title at picture bottom.', 'diviec-events-calendar-divi'),
+                'toggle_slug'       => 'divi-events-blog',
+                'hover'             => 'tabs',
+                'tab_slug'        => 'advanced',
+            ),
+            'link_color_blog' => array(
+                'label'             => esc_html__('Link Color', 'diviec-events-calendar-divi'),
+                'type'              => 'color-alpha',
+                'description'       => esc_html__('Here you can define a custom color for the links of the event.', 'diviec-events-calendar-divi'),
                 'toggle_slug'       => 'divi-events-blog',
                 'hover'             => 'tabs',
                 'tab_slug'        => 'advanced',
@@ -194,7 +203,7 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
         $bottom_title_color			= $this->props['bottom_title_color'];
         $bottom_divider_color			= $this->props['bottom_divider_color'];
         $read_text = $this->props['read_text'];
-
+        $link_color			            = $this->props['link_color_blog'];
 
         if ($event_background_color!='') {
             ET_Builder_Element::set_style($render_slug, array(
@@ -205,6 +214,17 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
                    ),
                ));
         }
+
+        if ($link_color!='') {
+            $link_color='color:'.$link_color.';';
+
+            //Styles for link
+            ET_Builder_Element::set_style($render_slug, array(
+                'selector'    => '%%order_class%% .link_wrapper a',
+                'declaration' => sprintf('%1$s', esc_attr($link_color)),
+            ));
+        }
+
 
         if ($title_background_color!='') {
             ET_Builder_Element::set_style($render_slug, array(
@@ -305,8 +325,9 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
                 } else {
                     $events_output .= '<div><strong>' . __('Event is free', 'diviec-events-calendar-divi') .'</strong></div>';
                 }
+                $events_output .= '<div class="link_wrapper">';
                 $events_output .= '<div><a href="' . tribe_get_event_website_url($post->ID) . '">' . __("Event Website", "diviec-events-calendar-divi") . '</a></div>';
-                $events_output .= '</div>';
+                $events_output .= '</div></div>';
                 $events_output .= '<div class="event_details_block" >';
 
                 $events_output  .= '<div><strong> '. __("Location:", "diviec-events-calendar-divi") . ' </strong>'. tribe_get_venue($post) .  '</div>';
@@ -334,7 +355,7 @@ class DIVIEC_EventsBlog extends ET_Builder_Module
 
                 $events_output .= '</div >';
                 $events_output .= '</div>';
-                $events_output .= '<hr class="style-eight">';
+                $events_output .= '<hr class="style-eight"></hr>';
             }
 
             return $events_output;
