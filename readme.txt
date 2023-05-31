@@ -1,12 +1,11 @@
 === IKJ Events Calendar For Divi ===
- 
 Contributors: ilenejohnson
-Tags: Divi, Tribe
-Requires at least: 5.5
+Tags: Divi, Tribe, Events
 Donate link: https://www.paypal.com/donate/?hosted_button_id=JXZSC8T8BK7ME
+Requires at least: 5.5
 Tested up to: 6.2.2
-Stable tag: 1.0.2
 Requires PHP: 7.4
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
