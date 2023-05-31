@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: IKJ Events Calendar For Divi
-Plugin URI:
+Plugin URI: https://wordpress.org/plugins/ikjweb-events-calendar-for-divi/
 Description: A Divi module that implements The Events Calendar
-Version:     1.0.1
+Version:     1.0.2
 Author:      Ilene Johnson
 Author URI:  https://ikjweb.com
 License:     GPL2
