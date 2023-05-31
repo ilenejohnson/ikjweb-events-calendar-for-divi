@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: IKJ Events Calendar For Divi
-Plugin URI:   
+Plugin URI:
 Description: A Divi module that implements The Events Calendar
-Version:     1.0.0
+Version:     1.0.1
 Author:      Ilene Johnson
 Author URI:  https://ikjweb.com
 License:     GPL2
@@ -46,12 +46,12 @@ function Show_Notice_DIVI()
 {
     if (current_user_can('activate_plugins')) {
         if (! function_exists('et_builder_options')) {
-            echo esc_attr(
-                '<div class="notice notice-warning " ><p>' .
 
-         __('In order to use IKJ Events Calendar For Divi, Please first install the latest version of DIVI theme or DIVI plugin', 'diviec-events-calendar-divi')
-        . '</p></div>'
+            printf(
+                '<div class="notice notice-warning "><p>' .
+              'In order to use IKJ Events Calendar For Divi, Please first install the latest version of DIVI theme or DIVI plugin. </p></div>'
             );
+
         }
     }
 }
