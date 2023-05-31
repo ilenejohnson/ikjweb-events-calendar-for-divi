@@ -22,6 +22,17 @@ IKJ Events Calendar For Divi is a WordPress plugin extends the Tribe Events Cale
 1. Upload the plugin folder to your /wp-content/plugins/ folder.
 2. Go to the **Plugins** page and activate the plugin.
 
+== Screenshots ==
+
+1.  Insert Tribe Events for Divi Blog Extension
+2.  Blog Events for Divi Content 
+3.  Blog Events For Divi Style Settings
+4.  Blog Events for Divi Various Title Settings
+5.  Blog Events for Divi Screen shot with description 
+6.  Insert Upcoming Events for Divi - Tribe Ext Settings
+7.  Upcoming Events for Divi - Tribe Ext Settings Style Settings
+8.  Upcoming Events for Divi - Tribe Ext Settings Title Text Settings
+9.  Upcoming Events for Divi - Tribe Ext  Screen shot with descriptions 
 
 == Frequently Asked Questions == 
 
